@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ynovatech.gobarber"
+        applicationId "com.bootcampgostackmodulo14"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -152,8 +152,9 @@ android {
     }
     buildTypes {
         debug {
-            buildConfigField "String", "CODEPUSH_KEY", '""'
             signingConfig signingConfigs.debug
+
+            buildConfigField "String", "CODEPUSH_KEY", '""'
         }
 
         releaseStaging {

@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'bootcampgostackmodulo10' do
-  # Pods for bootcampgostackmodulo10
+target 'bootcampgostackmodulo14' do
+  # Pods for bootcampgostackmodulo14
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -38,7 +38,7 @@ target 'bootcampgostackmodulo10' do
 
 
 
-  target 'bootcampgostackmodulo10Tests' do
+  target 'bootcampgostackmodulo14Tests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -46,10 +46,10 @@ target 'bootcampgostackmodulo10' do
   use_native_modules!
 end
 
-target 'bootcampgostackmodulo10-tvOS' do
-  # Pods for bootcampgostackmodulo10-tvOS
+target 'bootcampgostackmodulo14-tvOS' do
+  # Pods for bootcampgostackmodulo14-tvOS
 
-  target 'bootcampgostackmodulo10-tvOSTests' do
+  target 'bootcampgostackmodulo14-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

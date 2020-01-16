@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://64.225.18.126',
+  baseURL: 'http://api.infyweb.com.br',
 });
 
 export default api;
